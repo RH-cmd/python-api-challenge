@@ -2,12 +2,15 @@
 
 ![World Map](https://www.mapsofindia.com/worldmap/world-continent-map.jpg)
 
-Background
+## Background
+
 Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
+
 Now, we know what you may be thinking: "Duh. It gets hotter..."
 But, if pressed, how would you prove it?
 
-Part I - WeatherPy
+### Part I - WeatherPy
+
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
@@ -36,12 +39,17 @@ After each pair of plots, explain what the linear regression is modeling.
 Your final notebook must:
 
 Randomly select at least 500 unique (non-repeat) cities based on latitude and longitude.
+
 Perform a weather check on each of the cities using a series of successive API calls.
+
 Include a print log of each city as it's being processed with the city number and city name.
+
 Save a CSV of all retrieved data and a PNG image for each scatter plot. These documents will be located in a folder named [Output_Data](https://github.com/RH-cmd/python-api-challenge/tree/main/WeatherPy/output_data). 
 
 
-Part II - VacationPy
+
+### Part II - VacationPy
+
 Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
 
 To complete this part of the assignment,you will need to do the following:
